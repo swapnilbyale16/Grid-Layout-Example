@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            height: 600px;
+            width: 900px;
+            display: grid;
+            grid-template-columns: repeat(8,auto);
+            margin: auto;
+        }
+        div{
+            border: 3px solid white;
+        }
+        .c1{
+            grid-column: 1/9;
+            background-color: orangered;
+        }
+        .c2{
+            grid-area: 2/1/7/3;
+            background-color: rgb(58, 250, 58);
+        }
+        .c3{
+            grid-area: 2/3/4/7;
+            background-color: rgb(100, 195, 233);
+        }
+        .c4{
+            grid-area: 2/7/6/9;
+            background-color: aquamarine;
+        }
+        .c5{
+            grid-area: 4/3/6/5;
+            background-color: green;
+        }
+        .c6{
+            grid-area: 4/5/5/7;
+            background-color: lawngreen;
+        }
+        .c7{
+            grid-area: 5/5/6/7;
+            background-color: rgb(234, 39, 182);
+        }
+        .c8{
+            grid-area: 6/3/7/8;
+            background-color: red;
+        }
+        .c9{
+            background-color: purple;
+        }
+        .c10{
+            grid-area: 7/1/8/9;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="c1">1</div>
+        <div class="c2">2</div>
+        <div class="c3">3</div>
+        <div class="c4">4</div>
+        <div class="c5">5</div>
+        <div class="c6">6</div>
+        <div class="c7">7</div>
+        <div class="c8">8</div>
+        <div class="c9">9</div>
+        <div class="c10">10</div>
+    </main>
+</body>
+</html>
