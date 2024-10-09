@@ -21,25 +21,7 @@ The provided code uses CSS Grid to create a layout consisting of various section
   - The grid areas are specified using the `grid-area` property for precise control over where each item appears within the grid.
 
 ### Visual Representation
-Here’s a conceptual visualization of how the layout appears, although it won't capture the colors:
-
-```
-+--------------------+
-|        1           |
-+--------+-----------+
-|   2    |     3     |
-|        |           |
-|        +-----------+
-|        |     4     |
-+--------+-----------+
-|   5    |     6     |
-|        +-----+-----+
-|              |  7  |
-|        8     +-----+
-+--------------+  9  |
-|        10           |
-+--------------------+
-```
+![image](https://github.com/user-attachments/assets/3f5645e5-f907-4a9e-b114-352d2dfa28b5)
 
 ## Complete Code Example
 Here's the complete code with your provided structure:
